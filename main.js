@@ -69,7 +69,6 @@ $(function () {
     return c<0?0:c;
   }
   function getTr() {
-    debugger
     var arr = arguments[0];
     var head = arguments[1]? true: false;
     var html = [];

@@ -1,22 +1,37 @@
 h1{
   text-align: center;
 }
+.indiv *{
+  /* border: 1px solid; */
+}
 
-.indiv div{
-  /* display: inline-block; */
-  display: table-cell;
-  width: 30%;
+.indiv  div {
+  display: inline-block;
+  /* display: table-cell; */
+  width: 40%;
+  height: 40px;
+  text-align: right;
+}
+
+.indiv{
+  width: 80%;
+  margin: 0 auto;
 }
 
 #cal{
+  color: #FFF;
   text-align: center;
   line-height: 30px;
   width: 100px;
   height: 30px;
-  margin: 10px;
+  margin: 0 auto;
   border-radius: 25px;
   background: #0090D7;
   cursor: pointer;
+}
+
+#cal:hover{
+  color: #000;
 }
 
 table {
