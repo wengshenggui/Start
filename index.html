@@ -1,6 +1,31 @@
-<htnm>
-    <head></head>
-    <body>
-        First
-    </body>
-</htnm>
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>个税计算器</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+  <script src="main.js"></script>
+</head>
+
+<body>
+  <h1>2019个税计算</h1>
+  <div class="indiv">
+    <div>
+      工资：<input id="payment" value="10000">
+    </div>
+    <div>
+      社保：<input id="insurance" value="2800">
+    </div>
+    <div>
+      专项扣除：<input id="deduction" value="2000">
+    </div>
+  </div>
+  <div id="cal">计算</div>
+  <div id="table"></div>
+</body>
+
+</html>
